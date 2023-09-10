@@ -1,0 +1,34 @@
+{
+    "hotels" : [
+        {
+            "id" : 1,
+            "name" : "Hotel Cielo",
+            "description" : "Tira Feliz Xd",
+            "image" : "/img/hotel1.jpg"
+        },
+        {
+            "id" : 2,
+            "name" : "Hotel El Rapidin",
+            "description" : "Chiquitingo a tu Hermana",
+            "image" : "/img/hotel2.jpg"
+        },
+        {
+            "id" : 3,
+            "name" : "Hotel Sheraton",
+            "description" : "Otra cosita este telo",
+            "image" : "/img/hotel3.jpg"
+        },
+        {
+            "id" : 4,
+            "name" : "Hotel Paraiso",
+            "description" : "El colchon mas duro",
+            "image" : "/img/hotel4.jpg"
+        },
+        {
+            "id" : 5,
+            "name" : "Hotel Maleño",
+            "description" : "Este un Zologico",
+            "image" : "/img/hotel5.jpg"
+        }
+    ]
+}
