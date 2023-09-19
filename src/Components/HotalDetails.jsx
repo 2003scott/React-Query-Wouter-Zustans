@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query"
 import axios from "axios"
 import { Link, useRoute } from "wouter"
+import BookingForm from './BookingForm';
 
 const axiosHotel = async(id) =>{
     const res = await axios(`http://localhost:3001/hotels/${id}`)
@@ -36,6 +37,9 @@ function HotelDetails() {
             <div className="flex items-center justify-between py-5">
                 <h5 className="text-lg">{hotel.name}</h5>
                 <p className="text-lg">{hotel.description}</p>
+            </div>
+            <div>
+                <BookingForm hotel={hotel}/>
             </div>
             <div>
             <Link href="/">
